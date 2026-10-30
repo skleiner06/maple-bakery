@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Come on in! Welcome to Maple Street Bakery!</title>
+</head>
+<body>
+    <header>
+        <h1>Maple Street Bakery</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <figure>
+        <img src="images/bakery_logo.png" alt="Maple Street Bakery Logo" width="200" height="200">
+        <figcaption>Maple Street Bakery Logo</figcaption>
+    </figure>
+    <main>
+            <section>
+                <h2>Our Menu</h2>
+                <ul class="menu-items">
+                    <li>Sourdough</li>
+                    <li>Cookies</li>
+                    <li>Danishes</li>
+                    <li>Pastries</li>
+                    <li>Croissants</li>
+                </ul>
+            </section>
+        <article>
+            <h3>About Our Croissant Fillings:</h3>
+            <p>Our croissants come with a wide variety of fillings. The French Chef offers a choice of raspberry, chocolate, and espresso.</p>
+            <h3>Inquire About Our Sourdough!</h3>
+            <p>We offer sourdough made from the following grains:</p>
+            <ul>
+                <li>Spelt</li>
+                <li>Oat</li>
+                <li>Whole Wheat</li>
+                <li>Multigrain</li>
+            </ul>
+        </article>
+        <article>
+            <section>
+                <h2>Catering Inquiries</h2>
+                <form action="/submit" method="POST">
+                    <fieldset><legend>Catering Inquiry Form</legend>
+                        <label for="username">Name:</label>
+                        <input type="text" name="username" id="username" required>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                        <label for="tel">Phone Number</label>
+                        <input type="tel" name="tel" id="tel" required>
+                        <label for="comments">Comments:</label>
+                        <textarea id="comments" name="comments"></textarea>
+                        <button type="submit">Submit</button>
+                    </fieldset>
+                </form>
+            </section>
+        </article>
+
+    </main>
+    <footer>© 2026 Maple Street Bakery & Café</footer>
+</body>
+</html>
